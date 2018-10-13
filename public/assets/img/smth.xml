@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<timetable ascttversion="2017.12.10" importtype="database" options="export:idprefix:%CHRID,import:idprefix:%TEMPID,groupstype1,decimalseparatordot,lessonsincludeclasseswithoutstudents,handlestudentsafterlessons" defaultexport="1" displayname="aSc Timetables 2012 XML" displaycountries="">
+   <periods options="canadd,export:silent" columns="period,name,short,starttime,endtime">
+      <period name="1" short="1" period="1" starttime="8:00" endtime="8:45"/>
+      <period name="2" short="2" period="2" starttime="9:00" endtime="9:45"/>
+      <period name="3" short="3" period="3" starttime="10:00" endtime="10:45"/>
+      <period name="4" short="4" period="4" starttime="11:00" endtime="11:45"/>
+      <period name="5" short="5" period="5" starttime="12:00" endtime="12:45"/>
+      <period name="6" short="6" period="6" starttime="13:00" endtime="13:45"/>
+      <period name="7" short="7" period="7" starttime="14:00" endtime="14:45"/>
+   </periods>
+   <daysdefs options="canadd,export:silent" columns="id,days,name,short">
+      <daysdef id="A7C671E942FF01C5" name="В любой день" short="X" days="100000,010000,001000,000100,000010,000001"/>
+      <daysdef id="FC13D36AD3310F51" name="Каждый день" short="E" days="111111"/>
+      <daysdef id="CEE8C58F22530E5F" name="Понедельник" short="Пн" days="100000"/>
+      <daysdef id="D3C6A1FCB0480BE9" name="Вторник" short="Вт" days="010000"/>
+      <daysdef id="9AA701AEEE12FEBD" name="Среда" short="Ср" days="001000"/>
+      <daysdef id="2CF2E83DF86E086F" name="Четверг" short="Чт" days="000100"/>
+      <daysdef id="13D90905FEF5528F" name="Пятница" short="Пт" days="000010"/>
+      <daysdef id="EAD17DC9A00C1CCB" name="Суббота" short="Сб" days="000001"/>
+   </daysdefs>
+   <weeksdefs options="canadd,export:silent" columns="id,weeks,name,short">
+      <weeksdef id="71B7E21F5D992646" name="Все недели" short="Все" weeks="1"/>
+   </weeksdefs>
+   <termsdefs options="canadd,export:silent" columns="id,terms,name,short">
+      <termsdef id="8827034A2937B163" name="Весь год" short="Год" terms="1"/>
+   </termsdefs>
+   <subjects options="canadd,export:silent" columns="id,name,short,partner_id">
+      <subject id="FDE29F1C266DCB7A" name="казак т" short="каз т" partner_id=""/>
+      <subject id="C991405A2531296E" name="казак ад" short="каз ад" partner_id=""/>
+      <subject id="8520A6C099CCB77E" name="агылшын" short="агылшын" partner_id=""/>
+      <subject id="DED4165F5F92E1FD" name="математика" short="матем" partner_id=""/>
+      <subject id="3F19BE9DDBC2A106" name="орыс т" short="орыс т" partner_id=""/>
+      <subject id="2C5A671347AB251B" name="орыс адебиети" short="орыс ад" partner_id=""/>
+      <subject id="D5EA500385D2C217" name="алгебра" short="алгеб" partner_id=""/>
+      <subject id="E5B347B552302E1D" name="геометрия" short="геомет" partner_id=""/>
+      <subject id="4BF4F5FFDF5B96A0" name="информатика" short="информ" partner_id=""/>
+      <subject id="1062D0B5B1101DAF" name="физика" short="физ" partner_id=""/>
+      <subject id="A0638CA6D9DC4F2F" name="география" short="геог" partner_id=""/>
+      <subject id="23B44B8A8EF4AF6C" name="биология" short="био" partner_id=""/>
+      <subject id="303D2A584E4FF208" name="химия" short="хим" partner_id=""/>
+      <subject id="D32F91565A3D692E" name="казакстан тарих" short="к тарих" partner_id=""/>
+      <subject id="B894133226E09573" name="дуние жузи тарих" short="д тарих" partner_id=""/>
+      <subject id="BF1DF21D166B4C01" name="адам когам" short="когам" partner_id=""/>
+      <subject id="6EAEE98822EE7A69" name="дин тану" short="д тану" partner_id=""/>
+      <subject id="153A9AE37FB151C8" name="озин ози тану" short="оз оз" partner_id=""/>
+      <subject id="C375FCD7C555C893" name="абай тану" short="абай т" partner_id=""/>
+      <subject id="D6EFBAA64107DDF2" name="дене шыныктыру" short="дышы" partner_id=""/>
+      <subject id="521E8AFCD0BE55A9" name="технология" short="техно" partner_id=""/>
+      <subject id="ACC54E0D851D5B67" name="сурет" short="сурет" partner_id=""/>
+      <subject id="45287222BA397CA8" name="ан" short="ан" partner_id=""/>
+      <subject id="6C7DB9CD1CBBC8A1" name="нвп" short="нвп" partner_id=""/>
+      <subject id="E09A69EC09F5279E" name="жаратылыстану" short="жаратылыс" partner_id=""/>
+      <subject id="561D0F1A5BEC50A1" name="сызу" short="сызу" partner_id=""/>
+      <subject id="1A886AD163ABFDD7" name="воллейбол" short="воллей" partner_id=""/>
+      <subject id="FD8D8B9603086686" name="футбол" short="футбол" partner_id=""/>
+      <subject id="83499458CFD72165" name="тарих" short="тарих" partner_id=""/>
+   </subjects>
+   <teachers options="canadd,export:silent" columns="id,name,short,gender,color,email,mobile,partner_id,firstname,lastname">
+      <teacher id="76CC52D63CCC09FC" firstname="Гулбостан" lastname="Журабекова" name="Журабекова Гулбостан" short="Жор" gender="F" color="#FF0000" email="" mobile="" partner_id=""/>
+      <teacher id="561C03C2755AFD85" firstname="н" lastname="Нурлыбаева" name="Нурлыбаева н" short="нурс" gender="F" color="#00FF00" email="" mobile="" partner_id=""/>
+      <teacher id="C0CBD6243865058E" firstname="Е" lastname="Ентаева" name="Ентаева Е" short="есен" gender="F" color="#0000FF" email="" mobile="" partner_id=""/>
+      <teacher id="C22B54FCC0610F6D" firstname="С" lastname="Байгелова" name="Байгелова С" short="сауле" gender="F" color="#FFCCFF" email="" mobile="" partner_id=""/>
+      <teacher id="27C2E16652643257" firstname="С" lastname="Бекеев" name="Бекеев С" short="Бекеев" gender="F" color="#FFFF66" email="" mobile="" partner_id=""/>
+      <teacher id="5631D7D3C138D5ED" firstname="Г" lastname="Жандарбекова" name="Жандарбекова Г" short="гулд" gender="F" color="#FF6666" email="" mobile="" partner_id=""/>
+      <teacher id="FE4E8820685C076B" firstname="З" lastname="Сейлханова" name="Сейлханова З" short="зулф" gender="F" color="#FFCC66" email="" mobile="" partner_id=""/>
+      <teacher id="E8C904F26D1DB222" firstname="Ж" lastname="Аренова " name="Аренова  Ж" short="жулд" gender="F" color="#3399FF" email="" mobile="" partner_id=""/>
+      <teacher id="9701C47887F6952E" firstname="Е" lastname="Даулетов" name="Даулетов Е" short="ерл" gender="F" color="#66FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="2ED37E6333D3E823" firstname="Д" lastname="Акмурзаева" name="Акмурзаева Д" short="дина" gender="F" color="#009933" email="" mobile="" partner_id=""/>
+      <teacher id="9693CCEFAB4D0DD5" firstname="Е" lastname="Нурлыбаев" name="Нурлыбаев Е" short="Е" gender="F" color="#DDFF97" email="" mobile="" partner_id=""/>
+      <teacher id="DC860576D016F5A8" firstname="К" lastname="Боранбаев " name="Боранбаев  К" short="К" gender="F" color="#669900" email="" mobile="" partner_id=""/>
+      <teacher id="9199A5A5A8ADF784" firstname="Д" lastname="Устемирова " name="Устемирова  Д" short="уст" gender="F" color="#66FF66" email="" mobile="" partner_id=""/>
+      <teacher id="6C7AA13478A04984" firstname="А" lastname="Ханхожа" name="Ханхожа А" short="асия" gender="F" color="#FFFFCC" email="" mobile="" partner_id=""/>
+      <teacher id="17A8D8F8230CB09C" firstname="Бекжан" lastname="Нурлыбаев" name="Нурлыбаев Бекжан" short="бек" gender="F" color="#6666FF" email="" mobile="" partner_id=""/>
+      <teacher id="A328D1D22CA2AA60" firstname="Н" lastname="Танкеев" name="Танкеев Н" short="н" gender="F" color="#993333" email="" mobile="" partner_id=""/>
+      <teacher id="CEB53B0583A2FEC4" firstname="Кудрет" lastname="Койшыгулов" name="Койшыгулов Кудрет" short="кудрет" gender="F" color="#CCFFFF" email="" mobile="" partner_id=""/>
+      <teacher id="4131118BBFBF2B26" firstname="Жансая" lastname="Даулеткалиева" name="Даулеткалиева Жансая" short="дж" gender="F" color="#33CC33" email="" mobile="" partner_id=""/>
+      <teacher id="2279EF671D6014DA" firstname="Мадина" lastname="Шораева" name="Шораева Мадина" short="мад" gender="F" color="#99FF66" email="" mobile="" partner_id=""/>
+      <teacher id="472DE25BE502BF9C" firstname="Жазира" lastname="Жуматаева" name="Жуматаева Жазира" short="жази" gender="F" color="#3333FF" email="" mobile="" partner_id=""/>
+      <teacher id="316821F1546AD83E" firstname="Меруерт" lastname="Шонаева" name="Шонаева Меруерт" short="мер" gender="F" color="#00CCFF" email="" mobile="" partner_id=""/>
+      <teacher id="B0CF92B0C376D0B7" firstname="Мария" lastname="Мырзамуратова" name="Мырзамуратова Мария" short="мар" gender="F" color="#FFFFFF" email="" mobile="" partner_id=""/>
+      <teacher id="DA938957E009C3FA" firstname="Сауле" lastname="Кыдыралиева" name="Кыдыралиева Сауле" short="с" gender="F" color="#00CC00" email="" mobile="" partner_id=""/>
+      <teacher id="09EDCB0A20BA050E" firstname="Лайла" lastname="Шораева" name="Шораева Лайла" short="л" gender="F" color="#808080" email="" mobile="" partner_id=""/>
+      <teacher id="70A2876B075C7145" firstname="Айнур" lastname="Исмайлова" name="Исмайлова Айнур" short="исм" gender="F" color="#FFFF00" email="" mobile="" partner_id=""/>
+      <teacher id="B59C14DF5E2E3D7D" firstname="Салима" lastname="Муханова" name="Муханова Салима" short="сали" gender="F" color="#FF00FF" email="" mobile="" partner_id=""/>
+      <teacher id="B2363053D0F6110B" firstname="Асел" lastname="Кенжебекова" name="Кенжебекова Асел" short="асел" gender="F" color="#FF9966" email="" mobile="" partner_id=""/>
+      <teacher id="30191E278DBFA305" firstname="Мадина" lastname="Жаркинбаева" name="Жаркинбаева Мадина" short="жм" gender="F" color="#00FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="EA196A19F9F6FD76" firstname="вакант" lastname="вакант" name="вакант вакант" short="орыс" gender="F" color="#808000" email="" mobile="" partner_id=""/>
+      <teacher id="7B98CFC449B3B93B" firstname="Бота" lastname="Даулетова" name="Даулетова Бота" short="Дау" gender="F" color="#CC6600" email="" mobile="" partner_id=""/>
+      <teacher id="DFB6596D9DDDDCA5" firstname="Халима" lastname="Кыстаубаева" name="Кыстаубаева Халима" short="Х" gender="F" color="#800080" email="" mobile="" partner_id=""/>
+      <teacher id="AEB284DE731262CD" firstname="д" lastname="Кудайбергенова" name="Кудайбергенова д" short="Д" gender="F" color="#008080" email="" mobile="" partner_id=""/>
+      <teacher id="270542A3ED5E0269" firstname="П" lastname="Пердебекова" name="Пердебекова П" short="Пер" gender="F" color="#FF8080" email="" mobile="" partner_id=""/>
+      <teacher id="8BC1E73B8235B419" firstname="С" lastname="Курбаниязова" name="Курбаниязова С" short="Салт" gender="F" color="#80FF80" email="" mobile="" partner_id=""/>
+      <teacher id="A327ABECA204A735" firstname="С" lastname="Жиеналиева" name="Жиеналиева С" short="Сау" gender="F" color="#8000FF" email="" mobile="" partner_id=""/>
+      <teacher id="57B5052FF8912AA3" firstname="А" lastname="Курганбаева" name="Курганбаева А" short="Айд" gender="F" color="#0080FF" email="" mobile="" partner_id=""/>
+      <teacher id="F71F1A074DC7EBFE" firstname="А" lastname="Сманова" name="Сманова А" short="См" gender="F" color="#FF8000" email="" mobile="" partner_id=""/>
+      <teacher id="3AF57D8BBEB64CEB" firstname="У" lastname="Куандыкова" name="Куандыкова У" short="Ум" gender="F" color="#CC6600" email="" mobile="" partner_id=""/>
+      <teacher id="BE52F71F4FFD546F" firstname="а" lastname="Абдуллаева" name="Абдуллаева а" short="Айн" gender="F" color="#00FF80" email="" mobile="" partner_id=""/>
+      <teacher id="15B28E0A39110D1B" firstname="" lastname="В Агылшын" name="В Агылшын" short="ВАгыл" gender="F" color="#FFC0C0" email="" mobile="" partner_id=""/>
+      <teacher id="969E8BCB3AA08D3A" firstname="Ж" lastname="Сасбухаева" name="Сасбухаева Ж" short="Ж" gender="F" color="#FFC000" email="" mobile="" partner_id=""/>
+      <teacher id="BC09F4670081C3DA" firstname="Р" lastname="Жумакулова " name="Жумакулова  Р" short="Жум" gender="F" color="#FFC030" email="" mobile="" partner_id=""/>
+      <teacher id="FEC69A241F57FF45" firstname="Ж" lastname="Ешентаев" name="Ешентаев Ж" short="Жанб" gender="F" color="#00C0FF" email="" mobile="" partner_id=""/>
+      <teacher id="D82EEF2B99532E73" firstname="Г" lastname="Темирбай" name="Темирбай Г" short="Гулж" gender="F" color="#C0FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="0F9CE1AAFB9CE12D" firstname="р" lastname="Бегимова" name="Бегимова р" short="рау" gender="F" color="#C0C000" email="" mobile="" partner_id=""/>
+      <teacher id="4A55F4B0AF38DA98" firstname="тарих" lastname="втарих" name="втарих тарих" short="тарих" gender="F" color="#80C0FF" email="" mobile="" partner_id=""/>
+      <teacher id="0ADD649B398958E1" firstname="Д" lastname="Канбатырова " name="Канбатырова  Д" short="Дам" gender="F" color="#00FFC0" email="" mobile="" partner_id=""/>
+      <teacher id="EDF25CECB22B4EC9" firstname="Б" lastname="Алибекова" name="Алибекова Б" short="Балж" gender="F" color="#60FFC0" email="" mobile="" partner_id=""/>
+      <teacher id="EB1861F3C51B4FF0" firstname="Н" lastname="Бисенбаев" name="Бисенбаев Н" short="Н" gender="F" color="#6060C0" email="" mobile="" partner_id=""/>
+      <teacher id="CAE9C61B71DE32B6" firstname="Ш" lastname="Серикбаева" name="Серикбаева Ш" short="Ш" gender="F" color="#14C0C0" email="" mobile="" partner_id=""/>
+      <teacher id="816CA561E685524A" firstname="м" lastname="Алпыс" name="Алпыс м" short="макс" gender="F" color="#14C000" email="" mobile="" partner_id=""/>
+      <teacher id="0926CBF2B21C12F8" firstname="Б" lastname="Терликбаева" name="Терликбаева Б" short="Терл" gender="F" color="#14C030" email="" mobile="" partner_id=""/>
+      <teacher id="124B24ECB52995A1" firstname="С" lastname="Куканбаева" name="Куканбаева С" short="Кук" gender="F" color="#00C0C8" email="" mobile="" partner_id=""/>
+      <teacher id="B8629E70668E9EDA" firstname="Л" lastname="Абжанова" name="Абжанова Л" short="Абж" gender="F" color="#C014FF" email="" mobile="" partner_id=""/>
+      <teacher id="3440FA85EFF21B0F" firstname="с" lastname="Касымова" name="Касымова с" short="Кас" gender="F" color="#80C014" email="" mobile="" partner_id=""/>
+      <teacher id="F7CB47CE642FBFED" firstname="Г" lastname="Муталиева" name="Муталиева Г" short="Г" gender="F" color="#0014C0" email="" mobile="" partner_id=""/>
+      <teacher id="FC41046527B90D3E" firstname="Э" lastname="Халхаманова" name="Халхаманова Э" short="Эл" gender="F" color="#6014C0" email="" mobile="" partner_id=""/>
+      <teacher id="C8E64213AE041C17" firstname="А" lastname="Баймухамедова" name="Баймухамедова А" short="Айза" gender="F" color="#1414C0" email="" mobile="" partner_id=""/>
+      <teacher id="44BE9DC1DEDA90E2" firstname="Р" lastname="Акбердиева" name="Акбердиева Р" short="Рано" gender="F" color="#CC9900" email="" mobile="" partner_id=""/>
+      <teacher id="EF066B4CEA5A5EEF" firstname="А" lastname="Дуйсенова" name="Дуйсенова А" short="Айман" gender="F" color="#999999" email="" mobile="" partner_id=""/>
+      <teacher id="FA3AB28C0F3769E0" firstname="А" lastname="Канаева" name="Канаева А" short="Алт" gender="F" color="#99FF99" email="" mobile="" partner_id=""/>
+      <teacher id="8BD80C198246D8C9" firstname="м" lastname="Оспанкулова" name="Оспанкулова м" short="Осп" gender="F" color="#333399" email="" mobile="" partner_id=""/>
+      <teacher id="751CC11308C87506" firstname="М" lastname="Сейдазимова" name="Сейдазимова М" short="Меру" gender="F" color="#9966FF" email="" mobile="" partner_id=""/>
+      <teacher id="095FDF3E47D8E468" firstname="М" lastname="омирова" name="омирова М" short="Ом" gender="F" color="#3333CC" email="" mobile="" partner_id=""/>
+      <teacher id="1B4FBA10170D0483" firstname="Б" lastname="Мустафаева" name="Мустафаева Б" short="Балн" gender="F" color="#666666" email="" mobile="" partner_id=""/>
+      <teacher id="28EA89768D2AF685" firstname="С" lastname="Пиргелдиева" name="Пиргелдиева С" short="Сулу" gender="F" color="#CC99FF" email="" mobile="" partner_id=""/>
+      <teacher id="5CF293319BE8AF94" firstname="Д" lastname="Исахова" name="Исахова Д" short="Дана" gender="F" color="#CCCCFF" email="" mobile="" partner_id=""/>
+      <teacher id="A495D3DDF38573C3" firstname="" lastname="Психолог" name="Психолог" short="П" gender="F" color="#6600FF" email="" mobile="" partner_id=""/>
+      <teacher id="77C09B3FA061FB1D" firstname="" lastname="Ержан" name="Ержан" short="Ер" gender="F" color="#33CCFF" email="" mobile="" partner_id=""/>
+      <teacher id="945A7B7D21C64FB1" firstname="" lastname="Баян" name="Баян" short="Баян" gender="F" color="#0066CC" email="" mobile="" partner_id=""/>
+      <teacher id="BC6D52B89B339C1D" firstname="" lastname="Гулчехра" name="Гулчехра" short="Гулч" gender="F" color="#006699" email="" mobile="" partner_id=""/>
+      <teacher id="E3D4E4AB83198107" firstname="" lastname="Бибигул" name="Бибигул" short="Биб" gender="F" color="#339933" email="" mobile="" partner_id=""/>
+      <teacher id="591D4831C60D8D5F" firstname="О" lastname="Аязбаев" name="Аязбаев О" short="Аяз" gender="F" color="#990099" email="" mobile="" partner_id=""/>
+      <teacher id="9713C1A2CA0E5421" firstname="" lastname="Галина" name="Галина" short="Га" gender="F" color="#663300" email="" mobile="" partner_id=""/>
+      <teacher id="CD2EDF463164213E" firstname="" lastname="Мария" name="Мария" short="Мария" gender="F" color="#CC3399" email="" mobile="" partner_id=""/>
+      <teacher id="7EC2942B1CFF73A1" firstname="" lastname="Максат" name="Максат" short="М" gender="F" color="#993300" email="" mobile="" partner_id=""/>
+      <teacher id="123FAF4EEF8B150E" firstname="" lastname="Мариям" name="Мариям" short="Музыка" gender="F" color="#CC99FF" email="" mobile="" partner_id=""/>
+      <teacher id="5C654434222A651A" firstname="" lastname="Рано" name="Рано" short="Р" gender="F" color="#FFCCCC" email="" mobile="" partner_id=""/>
+      <teacher id="8DF6740DE9BF175E" firstname="" lastname="Омар" name="Омар" short="О" gender="F" color="#0033CC" email="" mobile="" partner_id=""/>
+      <teacher id="638AE3F3AB43BB18" firstname="" lastname="Дастан" name="Дастан" short="Дас" gender="F" color="#996633" email="" mobile="" partner_id=""/>
+      <teacher id="0C0858C35F2AE3A5" firstname="" lastname="Ералы" name="Ералы" short="Ера" gender="F" color="#FF9900" email="" mobile="" partner_id=""/>
+      <teacher id="B3D990AFFA9E2F31" firstname="" lastname="Жанар" name="Жанар" short="Жан" gender="F" color="#CC00CC" email="" mobile="" partner_id=""/>
+      <teacher id="5188577B6F0ED575" firstname="" lastname="Мухтар" name="Мухтар" short="Мух" gender="F" color="#00FFCC" email="" mobile="" partner_id=""/>
+      <teacher id="D9EBAF0260AF3F59" firstname="" lastname="Бактияр" name="Бактияр" short="Бах" gender="F" color="#003300" email="" mobile="" partner_id=""/>
+      <teacher id="E5350907E1BEA89C" firstname="" lastname="Айгул" name="Айгул" short="Айг" gender="F" color="#336699" email="" mobile="" partner_id=""/>
+      <teacher id="7209B66464ED9689" firstname="" lastname="Нурлан" name="Нурлан" short="Нур" gender="F" color="#FF0066" email="" mobile="" partner_id=""/>
+      <teacher id="26ED96B3C48D27C9" firstname="" lastname="Ернар" name="Ернар" short="Ерн" gender="F" color="#00FF99" email="" mobile="" partner_id=""/>
+      <teacher id="44C23BB738500AD2" firstname="" lastname="Жазира" name="Жазира" short="Жаз" gender="F" color="#FF5050" email="" mobile="" partner_id=""/>
+      <teacher id="58CB318C1898F629" firstname="" lastname="Калмахан" name="Калмахан" short="Кал" gender="F" color="#003399" email="" mobile="" partner_id=""/>
+      <teacher id="46108956B4E77E18" firstname="" lastname="Аман" name="Аман" short="А" gender="F" color="#FF9933" email="" mobile="" partner_id=""/>
+      <teacher id="1BD7B5F70E7A9A17" firstname="" lastname="Бакытжан" name="Бакытжан" short="Нвп" gender="F" color="#FF3399" email="" mobile="" partner_id=""/>
+      <teacher id="61D092D6242A9598" firstname="Роза" lastname="Избасарова " name="Избасарова  Роза" short="Р" gender="F" color="#CC0000" email="" mobile="" partner_id=""/>
+      <teacher id="04CCE7DB46D92011" firstname="вагылшын 1" lastname="В агылшын 1" name="В агылшын 1 вагылшын 1" short="ва1" gender="F" color="#99CCFF" email="" mobile="" partner_id=""/>
+      <teacher id="FF800E251D917F9D" firstname="Бахтияр" lastname="олмесов" name="олмесов Бахтияр" short="Бахти" gender="F" color="#00C0C8" email="" mobile="" partner_id=""/>
+      <teacher id="D2165228BE09EC9E" firstname="" lastname="элмира" name="элмира" short="э" gender="F" color="#C0C000" email="" mobile="" partner_id=""/>
+      <teacher id="843B54EF0A45222E" firstname="" lastname="Айман" name="Айман" short="Ай" gender="F" color="#993366" email="" mobile="" partner_id=""/>
+      <teacher id="4215E933F2EAAE66" firstname="" lastname="кошкар агай" name="кошкар агай" short="кошкар а" gender="F" color="#FF3300" email="" mobile="" partner_id=""/>
+      <teacher id="F54BEDF7A1977D7F" firstname="" lastname="Дана" name="Дана" short="ИД" gender="F" color="#339966" email="" mobile="" partner_id=""/>
+      <teacher id="B8FF8DED4677AC08" firstname="амир" lastname="Тауасканов" name="Тауасканов амир" short="аТАмир" gender="F" color="#6600FF" email="" mobile="" partner_id=""/>
+   </teachers>
+   <classrooms options="canadd,export:silent" columns="id,name,short,capacity,partner_id"/>
+   <grades options="canadd,export:silent" columns="grade,name,short">
+      <grade name="Паралл. 1" short="Параллель 1" grade="1"/>
+      <grade name="Паралл. 2" short="Параллель 2" grade="2"/>
+      <grade name="Паралл. 3" short="Параллель 3" grade="3"/>
+      <grade name="Паралл. 4" short="Параллель 4" grade="4"/>
+      <grade name="Паралл. 5" short="Параллель 5" grade="5"/>
+      <grade name="Паралл. 6" short="Параллель 6" grade="6"/>
+      <grade name="Паралл. 7" short="Параллель 7" grade="7"/>
+      <grade name="Паралл. 8" short="Параллель 8" grade="8"/>
+      <grade name="Паралл. 9" short="Параллель 9" grade="9"/>
+      <grade name="Паралл. 10" short="Параллель 10" grade="10"/>
+      <grade name="Паралл. 11" short="Параллель 11" grade="11"/>
+      <grade name="Паралл. 12" short="Параллель 12" grade="12"/>
+      <grade name="Паралл. 13" short="Параллель 13" grade="13"/>
+      <grade name="Паралл. 14" short="Параллель 14" grade="14"/>
+      <grade name="Паралл. 15" short="Параллель 15" grade="15"/>
+      <grade name="Паралл. 16" short="Параллель 16" grade="16"/>
+      <grade name="Паралл. 17" short="Параллель 17" grade="17"/>
+      <grade name="Паралл. 18" short="Параллель 18" grade="18"/>
+      <grade name="Паралл. 19" short="Параллель 19" grade="19"/>
+      <grade name="Паралл. 20" short="Параллель 20" grade="20"/>
+   </grades>
+   <classes options="canadd,export:silent" columns="id,name,short,classroomids,teacherid,grade,partner_id">
+      <class id="6A3301DB05C0EB44" name="5ж" short="5ж" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="6E7F70D590B7766A" name="5б" short="5б" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="8732D065A98DA27D" name="5в" short="5в" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="A0BF63EB21912C91" name="5г" short="5г" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="83569A58B02AA637" name="5д" short="5д" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="7AB623935846B387" name="5е" short="5е" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="24AB89A311FB0C2F" name="5а" short="5а" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="32319939706D1B73" name="6а" short="6а" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="ED51321833770E7F" name="6ж" short="6ж" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="44E0F97961937FDB" name="6б" short="6б" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="DDBC58F6751D4DD8" name="6в" short="6в" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="36537CB12077A727" name="6г" short="6г" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="12C38F260EF99572" name="6д" short="6д" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="8F76326AB44C7D57" name="6е" short="6е" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="C65E09D71E9AEEFC" name="7а" short="7а" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="EA108A1895D65789" name="7ж" short="7ж" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="FFB9BB9CAF045A32" name="7б" short="7б" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="E383337617A637AD" name="7в" short="7в" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="D889E755FBA7E42E" name="7г" short="7г" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="C77F84A930FF9C56" name="7д" short="7д" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="7607971D2AAE770A" name="8а" short="8а" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="0B147B887002E98C" name="8ж" short="8ж" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="CA027082B91D5E70" name="8б" short="8б" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="64E88CC00B680F88" name="8в" short="8в" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="CF6414E395E9285A" name="8г" short="8г" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="19F6BEAE08C43F3C" name="8д" short="8д" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="C6577645A5977CFA" name="9а" short="9а" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="DF0AB871FEDB0E96" name="9ж" short="9ж" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="69EDC9DD4588F12B" name="9б" short="9б" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="9175EF095995C6DC" name="9в" short="9в" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="23CF19E371F45F66" name="9г" short="9г" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="7202175721924B24" name="9д" short="9д" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="1970B35172F1EE63" name="9е" short="9е" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="1103F4CEB3C68115" name="10а" short="10а" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="8E8EA082CB6F8C00" name="10ж" short="10ж" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="F11D84E2116E542B" name="10б" short="10б" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="C95EF7E15032C347" name="10в" short="10в" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="4C6C812FA765EB61" name="10г" short="10г" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="D1BAC95FD9EE6796" name="11а" short="11а" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="1BE1810CBDE184B6" name="11ж" short="11ж" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="487EA0806B1C1F36" name="11б" short="11б" teacherid="" classroomids="" grade="" partner_id=""/>
+      <class id="3FD061005A5B45A2" name="11в" short="11в" teacherid="" classroomids="" grade="" partner_id=""/>
+   </classes>
+   <groups options="canadd,export:silent" columns="id,classid,name,entireclass,divisiontag,studentcount,studentids">
+      <group id="19A6679BC907A370" name="Весь класс" classid="6A3301DB05C0EB44" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="BC120E9238BDAD3C" name="1 группа" classid="6A3301DB05C0EB44" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="F1CB6CB40E9D34E5" name="2 группа" classid="6A3301DB05C0EB44" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="923BAC70B975B0B7" name="Мальчики" classid="6A3301DB05C0EB44" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="352B0ACA64E50B31" name="Девочки" classid="6A3301DB05C0EB44" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="977F7D2D522C955A" name="Весь класс" classid="6E7F70D590B7766A" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="206B8A5C87B14EBE" name="1 группа" classid="6E7F70D590B7766A" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B67594B464E4777E" name="2 группа" classid="6E7F70D590B7766A" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A2F6C4BA55D368F7" name="Мальчики" classid="6E7F70D590B7766A" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7A021B1FAB83573F" name="Девочки" classid="6E7F70D590B7766A" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="90EB2358F1B6B476" name="Весь класс" classid="8732D065A98DA27D" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="494542EEA1B94688" name="1 группа" classid="8732D065A98DA27D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="6CFE91E9A8042EDB" name="2 группа" classid="8732D065A98DA27D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B114BE09F07D44EE" name="Мальчики" classid="8732D065A98DA27D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="D15D918D34721009" name="Девочки" classid="8732D065A98DA27D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7710005736293E3E" name="Весь класс" classid="A0BF63EB21912C91" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="7E2B51E1B047EBAC" name="1 группа" classid="A0BF63EB21912C91" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="03A2CF4390441E80" name="2 группа" classid="A0BF63EB21912C91" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="72ABF95873F93D49" name="Мальчики" classid="A0BF63EB21912C91" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="3B3FF699A930D9E0" name="Девочки" classid="A0BF63EB21912C91" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="9D4EC9733897BCB2" name="Весь класс" classid="83569A58B02AA637" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="578A3D01DC961AA8" name="1 группа" classid="83569A58B02AA637" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="F1CB25C66A621CAA" name="2 группа" classid="83569A58B02AA637" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="30377DA673047583" name="Мальчики" classid="83569A58B02AA637" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="49EA0B20C05B0BF3" name="Девочки" classid="83569A58B02AA637" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="1A1A9D983DF98EF7" name="Весь класс" classid="7AB623935846B387" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="CC542FE6409D927A" name="1 группа" classid="7AB623935846B387" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="3F6F3806D7BB5F6B" name="2 группа" classid="7AB623935846B387" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B5C942C0687F616F" name="Мальчики" classid="7AB623935846B387" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="DE1D09AED7DBE801" name="Девочки" classid="7AB623935846B387" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="1F1F0E1029FA241E" name="Весь класс" classid="24AB89A311FB0C2F" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="4FB8825AF3E7F568" name="1 группа" classid="24AB89A311FB0C2F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B1986A8B41040A70" name="2 группа" classid="24AB89A311FB0C2F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9C7185DA9ABBE47A" name="Мальчики" classid="24AB89A311FB0C2F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C83F20C166375D80" name="Девочки" classid="24AB89A311FB0C2F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="FD117A9EABA64D90" name="Весь класс" classid="32319939706D1B73" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="4EFAE4DFBBF628B5" name="1 группа" classid="32319939706D1B73" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="92097389697ACF53" name="2 группа" classid="32319939706D1B73" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="94F1E0CFE36B91F4" name="Мальчики" classid="32319939706D1B73" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="FC9B4D25BF5AC419" name="Девочки" classid="32319939706D1B73" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="BAD27B6C1B6E7CB4" name="Весь класс" classid="ED51321833770E7F" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C39257A997105650" name="1 группа" classid="ED51321833770E7F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="EA810DD0AA97E05D" name="2 группа" classid="ED51321833770E7F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="980435B867C65F31" name="Мальчики" classid="ED51321833770E7F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="2FA89617350B02A3" name="Девочки" classid="ED51321833770E7F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="EA1E43208AFAE2E8" name="Весь класс" classid="44E0F97961937FDB" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C317443AC2510958" name="1 группа" classid="44E0F97961937FDB" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="7C6D7468B81151CE" name="2 группа" classid="44E0F97961937FDB" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C115D4F040A7FA65" name="Мальчики" classid="44E0F97961937FDB" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6408AF20D737DC27" name="Девочки" classid="44E0F97961937FDB" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="521452B94EA572FE" name="Весь класс" classid="DDBC58F6751D4DD8" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="FF2C3CF2619AC516" name="1 группа" classid="DDBC58F6751D4DD8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="34E59B14377A4CC0" name="2 группа" classid="DDBC58F6751D4DD8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="48B3E4275081B139" name="Мальчики" classid="DDBC58F6751D4DD8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="077A252A145489BD" name="Девочки" classid="DDBC58F6751D4DD8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E2843AA353A6E931" name="Весь класс" classid="36537CB12077A727" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="02E90AB28AE3C37A" name="1 группа" classid="36537CB12077A727" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BC3B3AE080840BEF" name="2 группа" classid="36537CB12077A727" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="98E0EAEE82206C50" name="Мальчики" classid="36537CB12077A727" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7BBF971F3334D7A5" name="Девочки" classid="36537CB12077A727" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B840A6AE693FCB6A" name="Весь класс" classid="12C38F260EF99572" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="5093FCDC268714C1" name="1 группа" classid="12C38F260EF99572" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DF826BCEEAE7D874" name="2 группа" classid="12C38F260EF99572" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="50956BB6719F144A" name="Мальчики" classid="12C38F260EF99572" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="78E932A4E0FB9ADC" name="Девочки" classid="12C38F260EF99572" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="66ACFBCB8ED32A2C" name="Весь класс" classid="8F76326AB44C7D57" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C9527D2E755F3DD6" name="1 группа" classid="8F76326AB44C7D57" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="584467F824E088D2" name="2 группа" classid="8F76326AB44C7D57" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9DC45B3D461546B8" name="Мальчики" classid="8F76326AB44C7D57" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E5AE9C5C095D3EFF" name="Девочки" classid="8F76326AB44C7D57" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6FF35D94B7ACCB9D" name="Весь класс" classid="C65E09D71E9AEEFC" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="218187E8253A9126" name="1 группа" classid="C65E09D71E9AEEFC" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BAC8EEAE27FF90DF" name="2 группа" classid="C65E09D71E9AEEFC" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="835D70187236A62E" name="Мальчики" classid="C65E09D71E9AEEFC" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="F565318FB5F30783" name="Девочки" classid="C65E09D71E9AEEFC" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="2EEFDAAA590D00F0" name="Весь класс" classid="EA108A1895D65789" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="2B737B63979B1F8F" name="1 группа" classid="EA108A1895D65789" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="25A9F73E08C80273" name="2 группа" classid="EA108A1895D65789" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="1115CB1DB79CE7B8" name="Мальчики" classid="EA108A1895D65789" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="48C51C8FB6802303" name="Девочки" classid="EA108A1895D65789" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="D15C1E2FC05AC4D3" name="Весь класс" classid="FFB9BB9CAF045A32" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="F01A98380726246A" name="1 группа" classid="FFB9BB9CAF045A32" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="78D3F63121D3A6EF" name="2 группа" classid="FFB9BB9CAF045A32" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="F3616380780FFAEC" name="Мальчики" classid="FFB9BB9CAF045A32" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5E89F5AD232CFAEF" name="Девочки" classid="FFB9BB9CAF045A32" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="614BB4D14936CA41" name="Весь класс" classid="E383337617A637AD" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="BB2A2147DCF79DB7" name="1 группа" classid="E383337617A637AD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BAE6C18B948ECD16" name="2 группа" classid="E383337617A637AD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D49DD32EF704DC3E" name="Мальчики" classid="E383337617A637AD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="13062B0EFF873516" name="Девочки" classid="E383337617A637AD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="FD6214779806B223" name="Весь класс" classid="D889E755FBA7E42E" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="E4FC3360B8AF9397" name="1 группа" classid="D889E755FBA7E42E" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="7F3897FC315C1CE2" name="2 группа" classid="D889E755FBA7E42E" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="AEDA47E177A6781D" name="Мальчики" classid="D889E755FBA7E42E" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="9A4A9FEA3B9AD61B" name="Девочки" classid="D889E755FBA7E42E" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="55A552B562B4DC1B" name="Весь класс" classid="C77F84A930FF9C56" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="55B93CC5BA58290D" name="1 группа" classid="C77F84A930FF9C56" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="5A8279DC13453EDA" name="2 группа" classid="C77F84A930FF9C56" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="2316FB465D7C5429" name="Мальчики" classid="C77F84A930FF9C56" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="159AEEB43A031734" name="Девочки" classid="C77F84A930FF9C56" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="73E3FA5AC443D9E6" name="Весь класс" classid="7607971D2AAE770A" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="ECCB4D30F7F0B071" name="1 группа" classid="7607971D2AAE770A" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="F44DA17A108612C7" name="2 группа" classid="7607971D2AAE770A" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DFB97559BF5AF80E" name="Мальчики" classid="7607971D2AAE770A" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7B98B4253D5874C2" name="Девочки" classid="7607971D2AAE770A" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C229FD4A6F829DC4" name="Весь класс" classid="0B147B887002E98C" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="B97F3DDAB34B8DAF" name="1 группа" classid="0B147B887002E98C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="8735EB830230CD22" name="2 группа" classid="0B147B887002E98C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C9708259FD93B40F" name="Мальчики" classid="0B147B887002E98C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6118E2B8CAF85781" name="Девочки" classid="0B147B887002E98C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="F01C4EB54CDB5802" name="Весь класс" classid="CA027082B91D5E70" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="087C45D60C9CC949" name="1 группа" classid="CA027082B91D5E70" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="835C7DD2EFB9507A" name="2 группа" classid="CA027082B91D5E70" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DCEE23E4DD52D22A" name="Мальчики" classid="CA027082B91D5E70" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A586A54F27A9E779" name="Девочки" classid="CA027082B91D5E70" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5B215B872BD036D2" name="Весь класс" classid="64E88CC00B680F88" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="1B6F50F87811012B" name="1 группа" classid="64E88CC00B680F88" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="697CF015AC05B1B9" name="2 группа" classid="64E88CC00B680F88" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="7D4F3928C52D1633" name="Мальчики" classid="64E88CC00B680F88" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E915FE7D59316C94" name="Девочки" classid="64E88CC00B680F88" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="667FDF01E4C01B74" name="Весь класс" classid="CF6414E395E9285A" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="EFBEC0DC121996BA" name="1 группа" classid="CF6414E395E9285A" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="53E46CC1CA54A0D8" name="2 группа" classid="CF6414E395E9285A" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="1FBA4A9A3A3D8D1F" name="Мальчики" classid="CF6414E395E9285A" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="26797B00BC2E568D" name="Девочки" classid="CF6414E395E9285A" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="28568C1605F5C7CF" name="Весь класс" classid="19F6BEAE08C43F3C" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="8436C295B6A4BF97" name="1 группа" classid="19F6BEAE08C43F3C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C47FEA459E236B9B" name="2 группа" classid="19F6BEAE08C43F3C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A484AA34AA8C74DD" name="Мальчики" classid="19F6BEAE08C43F3C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="192725A0102F144F" name="Девочки" classid="19F6BEAE08C43F3C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6AB019D60B827783" name="Весь класс" classid="C6577645A5977CFA" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="91FFF9734156D700" name="1 группа" classid="C6577645A5977CFA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="CB87968C09F6ECBE" name="2 группа" classid="C6577645A5977CFA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C31ADFA1AE04C06A" name="Мальчики" classid="C6577645A5977CFA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6EEA783B4031DCAD" name="Девочки" classid="C6577645A5977CFA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8D7BBA0274786982" name="Весь класс" classid="DF0AB871FEDB0E96" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="4B3697DD138293A9" name="1 группа" classid="DF0AB871FEDB0E96" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="E8F32AA1855BDC41" name="2 группа" classid="DF0AB871FEDB0E96" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C32E8CD5E4E50240" name="Мальчики" classid="DF0AB871FEDB0E96" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="F7071B27DBC836BE" name="Девочки" classid="DF0AB871FEDB0E96" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="60A35E40EDCFCD09" name="Весь класс" classid="69EDC9DD4588F12B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="F7B3AC5A76513664" name="1 группа" classid="69EDC9DD4588F12B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D0EF21664CBD23C3" name="2 группа" classid="69EDC9DD4588F12B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C37314D42943E6CE" name="Мальчики" classid="69EDC9DD4588F12B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="50882FCDF9E8DE9E" name="Девочки" classid="69EDC9DD4588F12B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="EF39E8134F0D98F0" name="Весь класс" classid="9175EF095995C6DC" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="00813B7CCC1DB3B9" name="1 группа" classid="9175EF095995C6DC" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D12F88D9A4C92727" name="2 группа" classid="9175EF095995C6DC" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DF86E319AE92E0F4" name="Мальчики" classid="9175EF095995C6DC" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6FDDDEAAB9E92874" name="Девочки" classid="9175EF095995C6DC" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="27D77E98123E0C7D" name="Весь класс" classid="23CF19E371F45F66" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="3B00AA2398496BE1" name="1 группа" classid="23CF19E371F45F66" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="7BEBD6F67C585163" name="2 группа" classid="23CF19E371F45F66" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BE266DCD77BB384F" name="Мальчики" classid="23CF19E371F45F66" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="97168A054192EB13" name="Девочки" classid="23CF19E371F45F66" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="AC5B800124A5B05C" name="Весь класс" classid="7202175721924B24" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C694CB1AD822ED86" name="1 группа" classid="7202175721924B24" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="58C81252AD560F79" name="2 группа" classid="7202175721924B24" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="8962C00D69A7F447" name="Мальчики" classid="7202175721924B24" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C01913A9F283A600" name="Девочки" classid="7202175721924B24" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="ECC5F3912E3FB6EC" name="Весь класс" classid="1970B35172F1EE63" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="7608D56B5BB93233" name="1 группа" classid="1970B35172F1EE63" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="975D31E9C3544A27" name="2 группа" classid="1970B35172F1EE63" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="3FE76E152FAF8F71" name="Мальчики" classid="1970B35172F1EE63" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A0256C063C0D37E7" name="Девочки" classid="1970B35172F1EE63" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="275C13BF82A2BB41" name="Весь класс" classid="1103F4CEB3C68115" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="47BD67F7CEBF0E42" name="1 группа" classid="1103F4CEB3C68115" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="848AE5A7D23073B1" name="2 группа" classid="1103F4CEB3C68115" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="6A2683689F6567C3" name="Мальчики" classid="1103F4CEB3C68115" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="4932B2BC6C70BF0D" name="Девочки" classid="1103F4CEB3C68115" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="9414BCD3DD69812D" name="Весь класс" classid="8E8EA082CB6F8C00" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C19DDED6E68CDE61" name="1 группа" classid="8E8EA082CB6F8C00" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BD9BCA42E8F347B7" name="2 группа" classid="8E8EA082CB6F8C00" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="74A0DB6960E765FB" name="Мальчики" classid="8E8EA082CB6F8C00" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A5380D4D3218C37F" name="Девочки" classid="8E8EA082CB6F8C00" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="4CEC5DFE7D29F2E1" name="Весь класс" classid="F11D84E2116E542B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="20217B442F8E64A0" name="1 группа" classid="F11D84E2116E542B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="AF0F660DDEEFAF9B" name="2 группа" classid="F11D84E2116E542B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="05D37AC030C7B8A0" name="Мальчики" classid="F11D84E2116E542B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A1B2B98BAEC53554" name="Девочки" classid="F11D84E2116E542B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="DE75B72C959F2B9A" name="Весь класс" classid="C95EF7E15032C347" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="7676BCD870112BC6" name="1 группа" classid="C95EF7E15032C347" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9D65F72898982E8A" name="2 группа" classid="C95EF7E15032C347" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="546B8C78258BC585" name="Мальчики" classid="C95EF7E15032C347" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5A10EB4EBB9D10E4" name="Девочки" classid="C95EF7E15032C347" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="90D9E22DCE6ADC3E" name="Весь класс" classid="4C6C812FA765EB61" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="AA21A14B8C2C886F" name="1 группа" classid="4C6C812FA765EB61" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="31EEB31E93BA5751" name="2 группа" classid="4C6C812FA765EB61" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="0E94E755AA56306A" name="Мальчики" classid="4C6C812FA765EB61" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="23F12B8DAA85262C" name="Девочки" classid="4C6C812FA765EB61" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="F5F9D718D69A3774" name="Весь класс" classid="D1BAC95FD9EE6796" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="CD12BA916C1BE0BC" name="1 группа" classid="D1BAC95FD9EE6796" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="87D5E5834BF38F60" name="2 группа" classid="D1BAC95FD9EE6796" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="4ACB891BD51EB9DD" name="Мальчики" classid="D1BAC95FD9EE6796" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="126E045E7F8F542B" name="Девочки" classid="D1BAC95FD9EE6796" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="37E93918750E6D55" name="Весь класс" classid="1BE1810CBDE184B6" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="EA23D3B8A1B16247" name="1 группа" classid="1BE1810CBDE184B6" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A10FF1DB028C8B6E" name="2 группа" classid="1BE1810CBDE184B6" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="4514AC5AF015F21B" name="Мальчики" classid="1BE1810CBDE184B6" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8CFE69509E5E71AB" name="Девочки" classid="1BE1810CBDE184B6" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="F7418A4D154517E8" name="Весь класс" classid="487EA0806B1C1F36" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="D9B874A60740DDC9" name="1 группа" classid="487EA0806B1C1F36" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="2418E4CC772F58D3" name="2 группа" classid="487EA0806B1C1F36" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DCFB3FEE780AB44A" name="Мальчики" classid="487EA0806B1C1F36" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8717773ECBAD8ADD" name="Девочки" classid="487EA0806B1C1F36" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B3D175DFC8661DB6" name="Весь класс" classid="3FD061005A5B45A2" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="642E385DEC2DCE0E" name="1 группа" classid="3FD061005A5B45A2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="F320A750B0AE91C1" name="2 группа" classid="3FD061005A5B45A2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9EF03FEA42DBAE04" name="Мальчики" classid="3FD061005A5B45A2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="013897D7073AEC3E" name="Девочки" classid="3FD061005A5B45A2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+   </groups>
+   <students options="canadd,export:silent" columns="id,classid,name,number,email,mobile,partner_id,firstname,lastname"/>
+   <studentsubjects options="canadd,export:silent" columns="studentid,subjectid,seminargroup,importance,alternatefor"/>
+   <lessons options="canadd,export:silent" columns="id,subjectid,classids,groupids,teacherids,classroomids,periodspercard,periodsperweek,daysdefid,weeksdefid,termsdefid,seminargroup,capacity,partner_id">
+      <lesson id="1940F24CCC9D35AF" classids="DDBC58F6751D4DD8" subjectid="DED4165F5F92E1FD" periodspercard="1" periodsperweek="5.0" teacherids="76CC52D63CCC09FC" classroomids="" groupids="521452B94EA572FE" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="C8DE2D7E6179192C" classids="E383337617A637AD" subjectid="D5EA500385D2C217" periodspercard="1" periodsperweek="4.0" teacherids="561C03C2755AFD85" classroomids="" groupids="614BB4D14936CA41" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="722BE264B2DD7B2D" classids="E383337617A637AD" subjectid="E5B347B552302E1D" periodspercard="1" periodsperweek="2.0" teacherids="561C03C2755AFD85" classroomids="" groupids="614BB4D14936CA41" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="51ABCB303F9A41C3" classids="7202175721924B24" subjectid="D5EA500385D2C217" periodspercard="1" periodsperweek="4.0" teacherids="561C03C2755AFD85" classroomids="" groupids="AC5B800124A5B05C" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="F2B5705A26A3F1F3" classids="7202175721924B24" subjectid="E5B347B552302E1D" periodspercard="1" periodsperweek="2.0" teacherids="561C03C2755AFD85" classroomids="" groupids="AC5B800124A5B05C" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="452B725D17269603" classids="CF6414E395E9285A" subjectid="DED4165F5F92E1FD" periodspercard="1" periodsperweek="5.0" teacherids="C0CBD6243865058E" classroomids="" groupids="667FDF01E4C01B74" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="41A5C214DBD7CC87" classids="DF0AB871FEDB0E96" subjectid="DED4165F5F92E1FD" periodspercard="1" periodsperweek="6.0" teacherids="C0CBD6243865058E" classroomids="" groupids="8D7BBA0274786982" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="0061BC4E1186248F" classids="23CF19E371F45F66" subjectid="DED4165F5F92E1FD" periodspercard="1" periodsperweek="6.0" teacherids="C0CBD6243865058E" classroomids="" groupids="27D77E98123E0C7D" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="D4F57CE31450E010" classids="1970B35172F1EE63" subjectid="DED4165F5F92E1FD" periodspercard="1" periodsperweek="6.0" teacherids="C0CBD6243865058E" classroomids="" groupids="ECC5F3912E3FB6EC" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+      <lesson id="543828B8CEBA7ECB" classids="ED51321833770E7F" subjectid="DED4165F5F92E1FD" periodspercard="1" periodsperweek="5.0" teacherids="C22B54FCC0610F6D" classroomids="" groupids="BAD27B6C1B6E7CB4" capacity="*" seminargroup="" termsdefid="8827034A2937B163" weeksdefid="71B7E21F5D992646" daysdefid="A7C671E942FF01C5" partner_id=""/>
+   </lessons>
+   <cards options="canadd,export:silent" columns="lessonid,period,days,weeks,terms,classroomids">
+      <card lessonid="1940F24CCC9D35AF" classroomids="" period="6" weeks="1" terms="1" days="010000"/>
+      <card lessonid="1940F24CCC9D35AF" classroomids="" period="4" weeks="1" terms="1" days="100000"/>
+      <card lessonid="1940F24CCC9D35AF" classroomids="" period="5" weeks="1" terms="1" days="000100"/>
+      <card lessonid="1940F24CCC9D35AF" classroomids="" period="3" weeks="1" terms="1" days="000010"/>
+      <card lessonid="1940F24CCC9D35AF" classroomids="" period="1" weeks="1" terms="1" days="001000"/>
+      <card lessonid="C8DE2D7E6179192C" classroomids="" period="5" weeks="1" terms="1" days="000010"/>
+      <card lessonid="C8DE2D7E6179192C" classroomids="" period="4" weeks="1" terms="1" days="000100"/>
+      <card lessonid="C8DE2D7E6179192C" classroomids="" period="1" weeks="1" terms="1" days="001000"/>
+      <card lessonid="C8DE2D7E6179192C" classroomids="" period="1" weeks="1" terms="1" days="010000"/>
+      <card lessonid="722BE264B2DD7B2D" classroomids="" period="7" weeks="1" terms="1" days="000010"/>
+   </cards>
+</timetable>
